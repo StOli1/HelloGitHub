@@ -15,6 +15,9 @@ public class Main {
 
         System.out.printf("Zahl 2: %n");
         num2 = scanner.nextInt();
+
+        int result = num1 + num2;
+        System.out.printf("Ergebnis: %d", result);
     }
 }
 
