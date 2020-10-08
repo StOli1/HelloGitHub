@@ -8,16 +8,16 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int num1, num2;
+        double num1, num2;
 
         System.out.printf("Zahl 1: %n");
-        num1 = scanner.nextInt();
+        num1 = scanner.nextDouble();
 
         System.out.printf("Zahl 2: %n");
-        num2 = scanner.nextInt();
+        num2 = scanner.nextDouble();
 
-        int result = num1 + num2;
-        System.out.printf("Ergebnis: %d", result);
+        double result = num1 + num2;
+        System.out.printf("Ergebnis: %f,12", result);
     }
 }
 
