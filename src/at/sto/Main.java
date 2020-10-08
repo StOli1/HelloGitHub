@@ -9,15 +9,20 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         double num1, num2;
+        try {
+            System.out.printf("Zahl 1: %n");
+            num1 = scanner.nextDouble();
 
-        System.out.printf("Zahl 1: %n");
-        num1 = scanner.nextDouble();
+            System.out.printf("Zahl 2: %n");
+            num2 = scanner.nextDouble();
 
-        System.out.printf("Zahl 2: %n");
-        num2 = scanner.nextDouble();
-
-        double result = num1 + num2;
-        System.out.printf("Ergebnis: %f,12", result);
+            double result = num1 + num2;
+            System.out.printf("Ergebnis: %f,12", result);
+        }
+        catch (Exception e)
+        {
+            System.out.println("Die Eingabe ist Fehlerhaft");
+        }
     }
 }
 
